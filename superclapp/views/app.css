@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Monofett);
+@import url(http://fonts.googleapis.com/css?family=Chango);
+
+body{
+	background-color: #BEFFA8;
+}
+
+h1{
+	font-family: 'Monofett', cursive;
+	font-weight: 200;
+	color: #3D7F26;
+	font-size: 6em;
+	text-align: center;
+	margin-top: 5%;
+}
+
+img{
+	position: absolute;
+	height: 75%;
+	margin-left: 19%;
+	margin-top: -7em;
+	width:60%;
+	overflow: 
+}
+
+a{
+	text-decoration: none;
+}
+#intro{
+	font-size: 9em;
+	margin-top: -10px;
+}
+#display{
+	font-size: 5em;
+	vertical-align: 50%;
+}
+
+#mobile{
+	display: none;
+}
+#button {
+	background-color:#3D7F26;
+	border-radius: 50%;
+	border-color:#3D7F26;
+	color: #3CEE00;
+	display: block;
+	font-style: none;
+	font-family: 'Chango', cursive;
+	font-size: 3em;
+    font-weight: bold;
+    height: 4em;
+    margin: 0 auto;
+	text-align: center;
+    width: 9em;  	
+}
+
+#display{
+	font-size: 22em;
+
+}
+
+#mobileTimer{
+	display: none;
+}
+
+/*small{
+	margin-left: 44%;
+	bottom: 3px;
+	color: #3D7F26;
+	position: absolute;
+
+}*/
+
+@media only screen and (max-width: 580px){
+	a{
+		color: #3D7F26; 
+	}
+	button{
+		display: none;
+	}
+	img{
+		display: block;
+		margin: 0 auto;
+		position: relative;
+	}
+	#button{
+		display: none;
+	}
+	#desktop{
+		display: none;
+	}
+	#display{
+		margin: 0 auto;
+		margin-top: 1em;
+		font-size: 9em;
+	}
+	#intro{
+		font-size: 4em;
+		margin-top: 1em;
+	}
+	#mobile{
+		display: block;
+		margin-top: 1em;
+	}
+	#mobileTimer{
+		display: block;
+	}
+}
